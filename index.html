@@ -1,12 +1,486 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.2/font/bootstrap-icons.css"
+        integrity="sha384-b6lVK+yci+bfDmaY1u0zE8YYJt0TZxLEAFyYSLHId4xoVvsrQu3INevFKo+Xir8e" crossorigin="anonymous">
+    <script src="https://kit.fontawesome.com/0bf80c0984.js" crossorigin="anonymous"></script>
+    <title>Resume</title>
 </head>
+
 <body>
-    <h1>Hello</h1>
+    <!--navbar-->
+    <div class=" container">
+        <div class=" row">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                    <a class="navbar-brand" href="#"></a>
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                            <li class="nav-item">
+                                <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#sectionITskills">IT-Skills</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#sectionEdu">Education</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#sectionWork">Working Experience</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#sectionProject">Student Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Online Course Cetificates</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+        </div>
+    </div><!--End of navbar-->
+
+    <!--container for header section-->
+    <div class="container col-xxl-8 px-4 py-5">
+        <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+            <div class="col-10 col-sm-12 col-lg-6">
+                <img src="Img/myProfilePic.JPG" class="d-block mx-lg-auto img-fluid" alt="My name as Jpeg" width="700"
+                    height="500" loading="lazy">
+            </div>
+            <div class="col-lg-6">
+                <h1 class="display-5 fw-bold lh-1 mb-3">About me</h1>
+                <p class="aboutMe">Hello everyone!<br> My name is Thitari Weibel.
+                    I recently graduated from FHNW with a Bachelor degree in Business Information Technology and have
+                    experience working on
+                    international projects. My interest lies in technology and I am looking for a junior position in an
+                    international
+                    company in a multicultural environment.
+                </p>
+
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                    <button type="button" class="btn btn-light btn-lg px-4">Download CV</button>
+                    <button type="button" class="btn btn-secondary btn-lg px-4" data-bs-toggle="collapse"
+                        data-bs-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">Read
+                        More</button>
+                </div>
+                <div class="collapse" id="collapseExample">
+                    <div class="card card-body">
+                        <div class="row">
+                            <p><strong>Nationality </strong> Thai </p>
+                        </div>
+                        <div class="row">
+                            <ul style="list-style: none;"> <strong>Languages</strong>
+                                <li>Thai &nbsp&nbsp&nbsp&nbsp&nbsp: Native&nbsp<span>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                    </span></li>
+                                <li>English&nbsp: B2/C1 &nbsp<span>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-half"></i>
+                                    </span>
+                                </li>
+                                <li>German: A2/B1 &nbsp<span>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-fill"></i>
+                                        <i class="bi bi-star-half"></i>
+                                    </span>
+                                    <p><em>I'm currently improve German
+                                            skills and focus on an additional
+                                            German Language Certificate in
+                                            2023</em></p>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="row">
+                            <p><strong>Hobbys</strong></p>
+                            <h3>
+                                <i class="bi bi-airplane-fill"></i>&nbsp&nbsp
+                                <i class="bi bi-camera-fill"></i>&nbsp&nbsp
+                                <i class="bi bi-braces"></i>&nbsp&nbsp
+                                <i class="fa-solid fa-person-hiking"></i>&nbsp&nbsp
+                                <i class="fa-sharp fa-solid fa-headphones-simple"></i>&nbsp&nbsp
+                                <i class="fa-solid fa-dog"></i>&nbsp&nbsp
+                                <i class="fa-solid fa-cat"></i>&nbsp&nbsp
+                                <i class="fa-solid fa-user-chef"></i>
+                            </h3>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--End of container for header section-->
+
+    <!-- section1 IT-Skills-->
+    <div class="container IT-Skills">
+        <div class="row">
+            <div class="col sectionHeader">
+                <section class="section1" id="sectionITskills"> IT-Skills</section>
+            </div>
+            <div class="col-lg-12 content_IT_Skills">
+                <div class="IT-Skills">
+                    <h3>MS Office</h3>
+                    <div class="progress-bar">
+                        <div class="msOffice"><span></span></div>
+                    </div>
+                </div>
+                <div class=" IT-Skills">
+                    <h3>MS Teams</h3>
+                    <div class="progress-bar">
+                        <div class="msTeams"><span></span></div>
+                    </div>
+                </div>
+
+                <div class="IT-Skills">
+                    <h3>HTML5</h3>
+                    <div class="progress-bar">
+                        <div class="html5"><span></span></div>
+                    </div>
+                </div>
+
+                <div class="IT-Skills">
+                    <h3>CSS</h3>
+                    <div class="progress-bar">
+                        <div class="css"><span></span></div>
+                    </div>
+                </div>
+
+                <div class="IT-Skills">
+                    <h3>JavaScript</h3>
+                    <div class="progress-bar">
+                        <div class="javaScript"><span></span></div>
+                    </div>
+                </div>
+
+                <div class="IT-Skills">
+                    <h3>Bootstrap5</h3>
+                    <div class="progress-bar">
+                        <div class="bootstrap5"><span></span></div>
+                    </div>
+                </div>
+
+                <div class="IT-Skills">
+                    <h3>GitHub</h3>
+                    <div class="progress-bar">
+                        <div class="gitHub"><span></span></div>
+                    </div>
+                </div>
+
+                <div class="IT-Skills">
+                    <h3>Java</h3>
+                    <div class="progress-bar">
+                        <div class="java"><span></span></div>
+                    </div>
+                </div>
+
+                <div class="IT-Skills">
+                    <h3>SQL</h3>
+                    <div class="progress-bar">
+                        <div class="sql"><span></span></div>
+                    </div>
+                </div>
+
+                <div class="IT-Skills">
+                    <h3>BPMN</h3>
+                    <div class="progress-bar">
+                        <div class="bpmn"><span></span></div>
+                    </div>
+                </div>
+
+                <div class="IT-Skills">
+                    <h3>Trello</h3>
+                    <div class="progress-bar">
+                        <div class="trello"><span></span></div>
+                    </div>
+                </div>
+
+                <div class="IT-Skills">
+                    <h3>Power Automate</h3>
+                    <div class="progress-bar">
+                        <div class="powerAutomate"><span></span></div>
+                    </div>
+                </div>
+
+                <div class="IT-Skills">
+                    <h3>WordPress</h3>
+                    <div class="progress-bar">
+                        <div class="wordPress"><span></span></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div> <!--End of IT Skills container-->
+
+    <!-- section2 Education-->
+    <div class="container education">
+        <div class="row">
+            <!--col for section-->
+            <div class="col sectionHeader">
+                <!-- section2-->
+                <section class="section2" id="sectionEdu">Education</section>
+            </div>
+            <!--col for content-->
+            <div class="contentEdu">
+                <table class="table table-borderless">
+                    <tbody>
+                        <tr>
+                            <td width="80%"><strong> B.Sc in Business Information Technology</strong><br>
+                                FHNW - University of Applied Sciences Northwestern Switzerland</td>
+                            <td class="year"><strong>2019-2023</strong></td>
+                        </tr>
+                        <tr>
+                            <td width="80%"><strong> B.B.A in Management</strong><br>
+                                KU - Kasertsart University, Bangkok, Thailand</td>
+                            <td class="year"><strong>2011-2014</strong></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="container workingEXP">
+        <div class="row">
+            <!--col for section-->
+            <div class="col sectionHeader">
+                <!-- section3-->
+                <section class="section3" id="sectionWork">Work Experience</section>
+            </div>
+            <!--col for content-->
+            <div class="contentWorkEXP">
+                <table class="table table-borderless">
+                    <tbody>
+                        <tr>
+                            <td width="75%"><strong> Senior Officer </strong> - Remote Business Center<br>
+                                Lufthansa, Bangkok</td>
+                            <td class="year"><strong>Feb17-Nov17</strong></td>
+                        </tr>
+                        <tr>
+                            <td width="80%">
+                                <ul>
+                                    <li>Advised and consulted the team and international
+                                        Lufthansa Group stations on daily operations.</li>
+                                    <li>Provided grounds operations support for all issues related
+                                        to Lufthansa Group processes and procedures</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="75%"><strong> Junior Officer </strong> - Remote Business Center<br>
+                                Lufthansa, Bangkok</td>
+                            <td class="year"><strong>Jun15-Feb17</strong></td>
+                        </tr>
+                        <td width="80%">
+                            <ul>
+                                <li>Coordinate operations with Lufthansa, Austrian and SWISS.</li>
+                                <li>Maintained and updated knowledge in operations procedures.</li>
+                                <li>Provided solutions to airport irregularities.</li>
+                                <li>Completed the ticketing process with SwissRes Software</li>
+                            </ul>
+                        </td>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="container studentProjects">
+        <div class="row">
+            <!--col for section-->
+            <div class="col sectionHeader">
+                <!-- section4-->
+                <section class="section4" id="sectionProject">Student Projects</section>
+            </div>
+            <!--col for content-->
+            <div class="contentStudenProject">
+                <!-- student project 1-->
+                <table class="table table-borderless">
+                    <tbody>
+                        <tr>
+                            <td width="75%"><strong> The Collaboration Hub between FHNW and SZTU </strong> <br>
+                                Client: FHNW China Center.
+                                <br> Bachelor Thesis.
+                            </td>
+                            <td class="year"><strong>Apr22-Aug22</strong></td>
+                        </tr>
+                        <tr>
+                            <td width="80%">
+                                <ul>
+                                    <li>Implementation and prototype of a virtual collaboration
+                                        hub between FHNW and SZTU in MS Teams by using Power
+                                        Automate for RPA.</li>
+                                    <li>Creating user guideline, collaboration hub logos.</li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="75%"><strong> Developing a framework for digitalizing business processes
+                                </strong> <br>
+                                Client: KIGA Baselland. <br>
+                                Practical Project.
+                            </td>
+                            <td class="year"> <strong>Sep21-Jan22</strong></td>
+                        </tr>
+                        <tr>
+                            <td width="80%">
+                                <ul>
+                                    <li>Designed and redesigned the department's workflows
+                                        using BPMN with Agile environments.
+                                    </li>
+                                    <li>Created project documentation and internal
+                                        documentation for the client.
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="75%"> <strong>Employee Time Tracking</strong><br>Supervisors: Lukas Frey and
+                                Prof.
+                                Bradley Richards.<br>
+                                IT-Project
+                            </td>
+                            <td class="year"><strong>Feb21-Jun21</strong></td>
+                        </tr>
+                        <tr>
+                            <td width="80%">
+                                <ul>
+                                    <li>Implemented a complete web service.
+                                        <ul>
+                                            <li>Server was implemented in Java</li>
+                                            <li>Client was implemented in JavaScript /HTML/CSS.</li>
+                                        </ul>
+                                    </li>
+                                    <li>Completed all phases of software project development:
+                                        requirements, system design, implementation, and
+                                        testing.
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td width="75%"> <strong>Swiss Cantons with JavaFX</strong>
+                                <br>Instructor: Prof. Ela Pustulka
+                                <br>Mini-IT-Project
+                            </td>
+                            <td class="year"> <strong>Feb21-Jun21</strong></td>
+                        </tr>
+                        <tr>
+                            <td width="80%">
+                                <ul>
+                                    <li>Created a JavaFX program with MVC that maintains
+                                        information on Swiss cantons.
+                                    </li>
+                                    <li>User interface allows the user to Create, Read, Update
+                                        and Delete (CRUD) the data on individual Cantons.
+                                    </li>
+                                </ul>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <div class="container onlineCert">
+        <div class="row">
+            <!--col for section-->
+            <div class="col sectionHeader">
+                <!-- section3-->
+
+            </div>
+            <!--col for content-->
+        </div>
+    </div>
+
+    <!--buttomm to scroll up-->
+    <a href="#" class="back-to-top"><i class="bi bi-arrow-up-circle-fill"></i></a>
+
+    <!-- Footer -->
+    <footer class="text-center text-lg-start bg-light text-muted">
+        <!-- Section: Social media -->
+        <section class="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+
+        </section>
+        <!-- Section: Social media -->
+
+        <!-- Section: Links  -->
+        <section class="">
+            <div class="container text-center text-md-start mt-5">
+                <!-- Grid row -->
+                <div class="row mt-3">
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
+                        <!-- Content -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            Earliest start date
+                        </h6>
+                        <p>
+                            01 MARCH 2023
+                        </p>
+                    </div>
+                    <!-- Grid column -->
+
+
+
+                    <!-- Grid column -->
+                    <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">
+                            References
+                        </h6>
+                        <p>
+                            gladly on requested
+                        </p>
+
+                    </div>
+                    <!-- Grid column -->
+
+                    <!-- Grid column -->
+                    <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
+                        <!-- Links -->
+                        <h6 class="text-uppercase fw-bold mb-4">Contact</h6>
+                        <p><i class="fas fa-home me-3"></i> Switzerland</p>
+                        <p>
+                            <i class="fas fa-envelope me-3"></i>
+                            info@example.com
+                        </p>
+                        <p><i class="fas fa-phone me-3"></i> + 01 234 567 88</p>
+
+                    </div>
+                    <!-- Grid column -->
+                </div>
+                <!-- Grid row -->
+            </div>
+        </section>
+        <!-- Section: Links  -->
+
+    </footer>
+    <!-- Footer -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
+
 </html>

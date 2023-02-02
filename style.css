@@ -1,0 +1,287 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+.section1,
+.section2,
+.section3,
+.section4,
+.section5 {
+    display: block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-size: 44px;
+    font-weight: 600;
+    margin-top: 40px;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* .section {
+    width: 100%;
+    height: 100%;
+    background: black;
+    display: flex;
+    color: aliceblue;
+} */
+
+/* IT-Skills */
+.IT-Skills h3 {
+    font-weight: 500;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.IT-Skills>.progress-bar {
+    background-color: rgb(206, 209, 212);
+    height: 10px;
+
+    border-radius: 15px;
+
+    color: black;
+    font-weight: 400px;
+
+}
+
+
+.progress-bar div {
+    height: 40px;
+    border-radius: 15px;
+    float: right;
+    margin-right: 50px;
+    background-color: rgb(137, 157, 182);
+    color: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+/*The animation for progressbar*/
+.msOffice {
+    animation: msOffice 1s linear forwards;
+}
+
+@keyframes msOffice {
+    100% {
+        width: 95%
+    }
+}
+
+.msTeams {
+    animation: msTeams 1s linear forwards;
+}
+
+@keyframes msTeams {
+    100% {
+        width: 85%
+    }
+}
+
+.html5 {
+    animation: html5 1s linear forwards;
+}
+
+@keyframes html5 {
+    100% {
+        width: 65%
+    }
+}
+
+.css {
+    animation: css 1s linear forwards;
+}
+
+@keyframes css {
+    100% {
+        width: 55%
+    }
+}
+
+.javaScript {
+    animation: javaScript 1s linear forwards;
+}
+
+@keyframes javaScript {
+    100% {
+        width: 40%;
+    }
+}
+
+.bootstrap5 {
+    animation: bootstrap5 1s linear forwards;
+}
+
+@keyframes bootstrap5 {
+    100% {
+        width: 55%;
+    }
+}
+
+.gitHub {
+    animation: gitHub 1s linear forwards;
+}
+
+@keyframes gitHub {
+    100% {
+        width: 65%;
+    }
+}
+
+.java {
+    animation: java 1s linear forwards;
+}
+
+@keyframes java {
+    100% {
+        width: 30%;
+    }
+}
+
+.sql {
+    animation: sql 1s linear forwards;
+}
+
+@keyframes sql {
+    100% {
+        width: 25%;
+    }
+}
+
+.bpmn {
+    animation: bpmn 1s linear forwards;
+}
+
+@keyframes bpmn {
+    100% {
+        width: 40%;
+    }
+}
+
+.trello {
+    animation: trello 1s linear forwards;
+}
+
+@keyframes trello {
+    100% {
+        width: 55%;
+    }
+}
+
+.powerAutomate {
+    animation: powerAutomate 1s linear forwards;
+}
+
+@keyframes powerAutomate {
+    100% {
+        width: 40%;
+    }
+}
+
+.wordPress {
+    animation: wordPress 1s linear forwards;
+}
+
+@keyframes wordPress {
+    100% {
+        width: 30%;
+    }
+}
+
+/* End-of IT-Skills */
+
+/* section Education
+Create timeline */
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    overflow-x: auto;
+    table-layout: auto;
+}
+
+
+td .year {
+    text-align: right;
+
+}
+
+.contentEdu>.table,
+.contentWorkEXP>.table,
+.contentStudenProject>.table {
+    border-left: 4px solid #6c757d;
+    height: auto;
+}
+
+
+/* styling the button of scoll back to top */
+/*This is a none active button*/
+.back-to-top {
+    background: white;
+    position: fixed;
+    bottom: 16px;
+    right: 32px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 44px;
+    opacity: 0;
+    /*It will be shown when user scroll down with opacity value is one*/
+    pointer-events: none;
+    transition: all .4s
+        /*Will keep the smooth trasition*/
+
+}
+
+/* section3 Working Experience*/
+
+/* styling the button of scoll back to top */
+/*This is an active button*/
+.back-to-top.active {
+    bottom: 32px;
+    pointer-events: auto;
+    opacity: 1;
+    color: black;
+}
+
+
+.b-example-divider {
+    height: 3rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
+}
+
+.aboutMe {
+    text-align: justify;
+}
+
+@media (min-width: 992px) {
+    .rounded-lg-3 {
+        border-radius: .3rem;
+    }
+
+    .year {
+        width: 80%;
+        overflow-x: auto;
+    }
+}
+
+
+@media only screen and (max-width: 600px) {
+    /*Table*/
+
+}
