@@ -5,11 +5,12 @@ In this repository, I created and designed my resume using BootStrap5, HTML, CSS
 As a result of responsive design, my CV can be viewed on both desktop computers and mobile devices. Once the user scrolls down, the user will see an arrow icon at the right-bottom of the screen which allows them to navigate back to the top of the page. The scroll-up button works with the function in JavaScript.
 
 - The `navbar` is collapsable. It was modified by using the code from BootStrap5 
-<img src="https://user-images.githubusercontent.com/72558791/216346640-5ec82e53-a2b1-404d-a655-a1b520d8aae4.png" width="700" height="400">
+<img src="https://user-images.githubusercontent.com/72558791/216346640-5ec82e53-a2b1-404d-a655-a1b520d8aae4.png" width="550" height="300">
 
 
 - Starting with About me, there is a short introduction and a read more button to see more details.
-![image](https://user-images.githubusercontent.com/72558791/216346720-6e1f1daa-1eae-4bd8-9b16-3aaab38512fc.png)
+<img src="https://user-images.githubusercontent.com/72558791/216346720-6e1f1daa-1eae-4bd8-9b16-3aaab38512fc.png" width="550" height="400">
+
  ```HTML
  <button type="button" class="btn btn-secondary btn-lg px-4" 
          data-bs-toggle="collapse" data-bs-target="#collapseReadMore" 
@@ -17,7 +18,11 @@ As a result of responsive design, my CV can be viewed on both desktop computers 
 </button>
 ```
 - In the IT Skills section, my current skills were rated individually using a `progress-bar` with animation in CSS. 
-![image](https://user-images.githubusercontent.com/72558791/216346839-1c728b0a-e9e7-419d-b358-a46f0f7b4530.png)
+
+| Desktop View  | Mobile View |
+| ------------- | ------------- |
+|<img src="https://user-images.githubusercontent.com/72558791/216348570-26472045-374c-42b6-a9dd-cb0ffbf38780.png" width="800" height="250" >  | <img src="https://user-images.githubusercontent.com/72558791/216346839-1c728b0a-e9e7-419d-b358-a46f0f7b4530.png" width="200" height="250">  |
+
   - On Desktop, this section displays two columns but it will appears only one column on Mobile device.
   - The progress bar use ` @keyframe ` in CSS
 
