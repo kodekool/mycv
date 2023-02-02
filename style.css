@@ -289,6 +289,10 @@ td .year {
 
 
 @media only screen and (max-width: 600px) {
-    /*Table*/
+    /*My Profile pic*/
+    #thitariPic{
+        display: block;
+        text-align: center;
+    }
 
 }
