@@ -5,7 +5,7 @@ In this repository, I created and designed my resume using BootStrap5, HTML, CSS
 As a result of responsive design, my CV can be viewed on both desktop computers and mobile devices. Once the user scrolls down, the user will see an arrow icon at the right-bottom of the screen which allows them to navigate back to the top of the page. The scroll-up button works with the function in JavaScript.
 
 - The `navbar` is collapsable. It was modified by using the code from BootStrap5 
-<img src="https://user-images.githubusercontent.com/72558791/216346640-5ec82e53-a2b1-404d-a655-a1b520d8aae4.png" width="200" height="300">
+<img src="https://user-images.githubusercontent.com/72558791/216346640-5ec82e53-a2b1-404d-a655-a1b520d8aae4.png" width="700" height="400">
 
 
 - Starting with About me, there is a short introduction and a read more button to see more details.
