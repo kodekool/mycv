@@ -7,6 +7,16 @@ h4 {
     font-size: 18px;
 }
 
+#certIcons{
+    margin-top: 17px;
+    text-align: center;
+}
+
+#certLogo {
+    margin-top: 5px;
+}
+
+
 .section1,
 .section2,
 .section3,
