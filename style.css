@@ -7,15 +7,16 @@ h4 {
     font-size: 18px;
 }
 
+/*section5 Online Certifiate*/
 #certIcons{
-    margin-top: 17px;
+    padding-top: 15px;
     text-align: center;
 }
 
 #certLogo {
     margin-top: 5px;
 }
-
+/*End section5 Online Certifiate*/
 
 .section1,
 .section2,
