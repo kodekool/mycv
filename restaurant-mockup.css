@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+.header {
+    background-image: url(img/cover.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 15%;
+}
+
+
+h1 {
+    margin-top: 10%;
+}
+
+.logo {
+    background-color: white;
+}
+
+main,
+.ourstory {
+    padding-bottom: 10%;
+}
+
+.special,
+.location {
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
