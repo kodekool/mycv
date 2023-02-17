@@ -203,6 +203,16 @@ html {
     }
 }
 
+.figma {
+    animation: figma 1s linear forwards;
+}
+
+@keyframes figma {
+    100% {
+        width: 30%;
+    }
+}
+
 /* End-of IT-Skills */
 
 /* section Education
