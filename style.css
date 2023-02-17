@@ -297,6 +297,9 @@ td .year {
     }
 }
 
+p .aboutMe{
+    padding-bottom: 20px;
+}
 
 @media only screen and (max-width: 600px) {
     /*My Profile pic*/
@@ -306,3 +309,4 @@ td .year {
     }
 
 }
+
